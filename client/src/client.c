@@ -86,7 +86,7 @@ t_log* iniciar_logger(void)
 
 t_config* iniciar_config(void)
 {
-	t_config* nuevo_config = config_create("tp0.config");
+	t_config* nuevo_config = config_create("../tp0.config");
 
 	if (nuevo_config == NULL)
 	{
